@@ -1,6 +1,6 @@
 # **Bychkovski Nikita**
 
-### Contacts
+### Contacts:
 * Phone: +375298368988
 * Email:  xellenad54@gmail.com
 * Skype:  nick11884
@@ -8,7 +8,7 @@
 *I am an aspiring software developer learning JavaScript, and
 React. I know that technology is developing very quickly, but my main goal is to explore innovation and continuous learning.*
 
-### Skills
+### Skills:
 * HTML/HTML5
 * CSS
 * JavaScript
@@ -20,7 +20,7 @@ React. I know that technology is developing very quickly, but my main goal is to
 * Avocode
 * Git
 
-### Code examples
+### Code examples:
 ```
 const numbers = [4, 2, 5, 1, 3];
 numbers.sort(function(a, b) {

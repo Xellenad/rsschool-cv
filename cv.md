@@ -36,7 +36,7 @@ items.sort(function (a, b) {
 ```
 ### My education:
 
-* SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL
+* SUKHOI STATE TECHNICAL UNIVERSITY OF GOMEL.
 * Specialty manager-economist
 
 ### My level of English:

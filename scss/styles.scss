@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&display=swap');
+
+@import "_reset.scss";
+
+
+body {
+  font-size: 16px;
+  background: #fff;
+  color: #535353;
+  font-family: "Noto Sans HK";
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 320px;
+}
+
+.container {
+  width: 650px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.card_section {
+  border: 2px solid rgb(179, 171, 171);
+  -webkit-box-shadow: 4px 4px 11px 10px rgba(34, 60, 80, 0.15);
+  -moz-box-shadow: 4px 4px 11px 10px rgba(34, 60, 80, 0.15);
+  box-shadow: 4px 4px 11px 10px rgba(34, 60, 80, 0.15);
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+
+.personal_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.personal_photo img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.personal_photo {
+  font-size: 0;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #b1b1b1;
+  margin-right: 30px;
+}
+
+
+.personal_name {
+  font-family: "Noto Sans HK";
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.personal_contacts li {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.pers_title {
+  display: block;
+  min-width: 80px;
+  font-family: "Noto Sans HK";
+  color: #000;
+}
+
+.pers_text a {
+  color: #627882;
+}
+
+.pers_text a:hover {
+  text-decoration: none;
+}
+
+
+
+
+.skills li {
+  margin-bottom: 8px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill_key {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.skill_value {
+  width: 45%;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid #5a5a5a;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill_value::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: #627882;
+}
+
+.skill_value.skill_7::before {
+  width: 70%;
+}
+
+.skill_value.skill_2::before {
+  width: 20%;
+}
+
+.skill_value.skill_5::before {
+  width: 50%;
+}
+
+.skill_value.skill_4::before {
+  width: 40%;
+}
+
+
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.education_pos {
+  font-size: 14px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background:#8a9da7;
+  border-radius: 0px 0px 15px 15px;
+  text-align: center;
+}
+
+.footer_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.footer_text{
+  padding-top: 10px;
+}
+
+
+.social img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.social img:hover{
+  background: #4949;
+}
